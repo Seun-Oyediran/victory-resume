@@ -1,4 +1,10 @@
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
+
 const yearField = document.querySelector(".footer-year");
+const backToTopBtn = document.querySelector(".back-to-top");
+
+backToTopBtn.addEventListener("click", handleGoToTop);
 
 document.addEventListener("DOMContentLoaded", function () {
   var splide = new Splide(".splide", {
@@ -19,8 +25,6 @@ function displayYear() {
 
 displayYear();
 
-gsap.registerPlugin(ScrollTrigger);
-
 gsap.utils.toArray(".panel").forEach((panel, i) => {
   ScrollTrigger.create({
     trigger: panel,
@@ -30,3 +34,7 @@ gsap.utils.toArray(".panel").forEach((panel, i) => {
     pinSpacing: false,
   });
 });
+
+function handleGoToTop() {
+  gsap.to(window, { duration: 0.3, scrollTo: 0 });
+}

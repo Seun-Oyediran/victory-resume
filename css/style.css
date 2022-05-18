@@ -240,7 +240,7 @@ body {
 
 footer {
   padding-top: 51px;
-  padding-bottom: 68px;
+  padding-bottom: 50px;
   background-color: var(--primary-text);
 }
 
@@ -268,6 +268,10 @@ footer .footer-divider {
   opacity: 0.6;
 }
 
+footer .year-con {
+  padding-bottom: 50px;
+}
+
 footer .year-con h2,
 footer .year-con h3 {
   font-family: var(--neue);
@@ -279,4 +283,8 @@ footer .year-con h3 {
 
 footer .year-con h2 {
   text-transform: uppercase;
+}
+
+footer .back-to-top {
+  cursor: pointer;
 }
