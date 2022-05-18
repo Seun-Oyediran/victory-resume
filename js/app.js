@@ -28,7 +28,7 @@ displayYear();
 gsap.utils.toArray(".panel").forEach((panel, i) => {
   ScrollTrigger.create({
     trigger: panel,
-    start: `top ${i * 15}%`,
+    start: `top ${i * 93}px`,
     end: "max",
     pin: true,
     pinSpacing: false,

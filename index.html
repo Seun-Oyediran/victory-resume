@@ -16,21 +16,22 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <title>Welcome | Victory Obaro</title>
   </head>
   <body>
-    <section class="first-section px-3 px-md-5 header-con py-4">
+    <section class="first-section px-2 px-md-5 header-con py-4">
       <div class="d-flex justify-content-between align-items-center">
         <div>
           <h2 class="name">VICTORY OBARO</h2>
         </div>
         <div
-          class="action-btn-con d-flex justify-content-center align-items-center gap-3"
+          class="action-btn-con d-flex justify-content-center align-items-center gap-md-3"
         >
           <button>Work</button>
           <a href="#">Resúme</a>
         </div>
-        <div class="d-flex social-link-con gap-3">
+        <div class="d-none d-md-flex social-link-con gap-3">
           <a href="#" class="d-flex align-items-start gap-1">
             Linkedin <img src="./svg/arrow.svg" alt="arrow"
           /></a>
@@ -40,16 +41,32 @@
         </div>
       </div>
 
+      <div class="d-md-none social-link-con gap-3 mt-4">
+        <div class="d-flex justify-content-end my-2">
+          <a href="#" class="d-flex align-items-start gap-1">
+            Linkedin <img src="./svg/arrow.svg" alt="arrow"
+          /></a>
+        </div>
+        <div class="d-flex justify-content-end my-2">
+          <a href="#" class="d-flex align-items-start gap-1">
+            Email <img src="./svg/arrow.svg" alt="arrow" />
+          </a>
+        </div>
+      </div>
+
       <div class="container">
-        <div class="py-5 mt-5">
+        <div class="py-5 mt-md-5">
           <div class="big-text-con">
             <h1>
               If Crypto is for everyone, then the <span>terms</span> and
               <span>words</span> must be understood by everyone.
             </h1>
+            <div class="floating-image-con">
+              <img src="./svg/hero.svg" alt="hero" />
+            </div>
           </div>
           <div class="divider my-5"></div>
-          <div class="bio-con d-flex justify-content-between">
+          <div class="bio-con d-md-flex justify-content-between">
             <div class="bio-left">
               <h4>A <span>multi-talented</span> blockchain content writer</h4>
             </div>
@@ -106,9 +123,9 @@
       </div>
     </section>
 
-    <section class="second-section panel">
+    <section class="second-section panel px-2 px-md-5">
       <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="d-lg-flex gap-2 justify-content-between">
           <div class="title">
             <h3 class="py-4">PuBLISHED WORKS</h3>
           </div>
@@ -140,9 +157,9 @@
       </div>
     </section>
 
-    <section class="third-section panel">
+    <section class="third-section panel px-2 px-md-5">
       <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class="d-lg-flex gap-2 justify-content-between">
           <div class="title">
             <h3 class="py-4">Press Releases</h3>
           </div>
@@ -181,24 +198,24 @@
       </div>
     </section>
 
-    <footer class="panel">
+    <footer class="panel px-2 px-md-5">
       <div class="container">
         <div class="title d-flex justify-content-end">
           <h1>Featured IN</h1>
         </div>
 
         <div class="logos-con py-5">
-          <div class="d-flex">
+          <div class="d-md-flex">
             <div class="icon-con">
               <img src="./svg/footer1.svg" alt="footer logo" />
             </div>
 
-            <div class="icon-con">
+            <div class="icon-con d-flex d-md-block justify-content-end">
               <img class="offset" src="./svg/footer2.svg" alt="footer logo" />
             </div>
           </div>
-          <div class="d-flex">
-            <div class="icon-con d-flex justify-content-center">
+          <div class="d-md-flex">
+            <div class="icon-con d-md-flex justify-content-center">
               <img src="./svg/footer3.svg" alt="footer logo" />
             </div>
 
@@ -210,10 +227,10 @@
 
         <div class="my-5 footer-divider"></div>
 
-        <div class="d-flex year-con justify-content-between">
+        <div class="d-md-flex year-con justify-content-between">
           <h3 class="footer-year">© 2022</h3>
           <h2>Designed & Developed by olsam & Strange ❤️</h2>
-          <h3 class="back-to-top d-flex gap-1">
+          <h3 class="back-to-top d-flex justify-content-center gap-1">
             Back to top
             <img class="mb-3" src="./svg/white-arrow.svg" alt="arrow" />
           </h3>

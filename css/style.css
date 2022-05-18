@@ -130,12 +130,20 @@ body {
   line-height: 120px;
   letter-spacing: -0.02em;
   color: var(--primary-text);
+  position: relative;
+  z-index: 99;
 }
 
 .header-con .big-text-con h1 span {
   font-style: italic;
   font-family: "Source Serif Pro", serif;
   color: #6d7372;
+}
+
+.header-con .floating-image-con {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .header-con .divider {
@@ -196,6 +204,7 @@ body {
 .third-section {
   background: #fceae3;
   padding: 70px 0;
+  padding-top: 30px;
 }
 
 .third-section {
@@ -218,6 +227,7 @@ body {
 .third-section .content {
   max-width: 670px;
 }
+
 .second-section .content a,
 .third-section .content a {
   text-decoration: none;
