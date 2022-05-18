@@ -54,6 +54,7 @@ p {
 body {
   width: 100%;
   font-family: "Source Serif Pro", serif;
+  background: var(--primary-text);
 }
 
 .container {
@@ -114,8 +115,12 @@ body {
   transition: all 0.3s ease;
 }
 
-.header-con .social-link-con a:hover {
-  opacity: 0.6;
+.header-con .social-link-con a img {
+  transition: all 0.3s ease;
+}
+
+.header-con .social-link-con a:hover img {
+  transform: translate(5px, -3px);
 }
 
 .header-con .big-text-con {
@@ -250,7 +255,7 @@ body {
 
 footer {
   padding-top: 51px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   background-color: var(--primary-text);
 }
 
