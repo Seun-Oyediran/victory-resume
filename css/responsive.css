@@ -61,6 +61,23 @@
     line-height: 24px;
     margin: 10px 0;
   }
+
+  .loader-con .loader-bar {
+    margin-bottom: 80px;
+  }
+
+  .loader-con .loader-bar .btn-con {
+    padding: 15px 70px;
+  }
+
+  .loader-con .loader-bar .btn-con p {
+    font-size: 22px;
+    line-height: 45px;
+  }
+
+  .loader-con .img-con img {
+    max-width: 150px;
+  }
 }
 
 @media (max-width: 662px) {
@@ -134,6 +151,23 @@
   footer .title h1 {
     font-size: 40px;
     line-height: 48px;
+  }
+
+  .loader-con .loader-bar {
+    margin-bottom: 60px;
+  }
+
+  .loader-con .loader-bar .btn-con {
+    padding: 10px 40px;
+  }
+
+  .loader-con .loader-bar .btn-con p {
+    font-size: 18px;
+    line-height: 40px;
+  }
+
+  .loader-con .img-con img {
+    max-width: 120px;
   }
 }
 
