@@ -29,7 +29,7 @@ if (window.innerHeight > 950) {
   gsap.utils.toArray(".panel").forEach((panel, i) => {
     ScrollTrigger.create({
       trigger: panel,
-      start: `top ${i * 93}px`,
+      start: `top ${i * 95}px`,
       end: "max",
       pin: true,
       pinSpacing: false,

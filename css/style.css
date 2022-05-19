@@ -105,6 +105,11 @@ body {
   text-decoration: none;
 }
 
+.header-con .action-btn-con a:hover {
+  background: #6d7372;
+  color: #fafcfc;
+}
+
 .header-con .social-link-con a {
   font-weight: 500;
   font-size: 22px;
