@@ -233,9 +233,26 @@ body {
   text-transform: uppercase;
 }
 
+.second-section .title p,
+.third-section .title p {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1c1f1e;
+  font-family: var(--neue);
+  /* max-width: 400px; */
+}
+
+.second-section .title p a,
+.third-section .title p a {
+  color: #806f68;
+}
+
 .second-section .content,
-.third-section .content {
-  max-width: 670px;
+.third-section .content,
+.second-section .title,
+.third-section .title {
+  max-width: 700px;
 }
 
 .second-section .content a,
