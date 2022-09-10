@@ -27,17 +27,17 @@ function displayYear() {
 
 displayYear();
 
-if (window.innerHeight > 950) {
-  gsap.utils.toArray(".panel").forEach((panel, i) => {
-    ScrollTrigger.create({
-      trigger: panel,
-      start: `top ${i * 95}px`,
-      end: "max",
-      pin: true,
-      pinSpacing: false,
-    });
-  });
-}
+// if (window.innerHeight > 950) {
+//   gsap.utils.toArray(".panel").forEach((panel, i) => {
+//     ScrollTrigger.create({
+//       trigger: panel,
+//       start: `top ${i * 95}px`,
+//       end: "max",
+//       pin: true,
+//       pinSpacing: false,
+//     });
+//   });
+// }
 
 function handleGoToTop() {
   gsap.to(window, { duration: 0.3, scrollTo: 0 });
